@@ -1,5 +1,6 @@
 # react-redux-server-example
-React-Redux server side rendering (SSR) example.
+React-Redux server side rendering (SSR) example.  
+Server is Express(node.js).
 
 ## step
 1. download
@@ -35,6 +36,6 @@ When npm run dev or npm run build, create this files.
 ```
 
 ## access
-If you access http://localhost:8080/detail direct, meta.title is Detail Container fetchData.
-http://localhost:8080/detail access by any other, meta.title is Detail Components.
-componentWillMount is not called twice.
+If you access http://localhost:8080/detail direct, meta.title is Detail Container fetchData.  
+http://localhost:8080/detail access by any other, meta.title is Detail Components.  
+componentWillMount is not called twice.  
