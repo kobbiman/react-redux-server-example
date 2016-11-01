@@ -38,4 +38,4 @@ When npm run dev or npm run build, create this files.
 ## access
 If you access http://localhost:8080/detail direct, meta.title is Detail Container fetchData.  
 http://localhost:8080/detail access by any other, meta.title is Detail Components.  
-componentWillMount is not called twice.  
+componentWillMount is not called twice.(on server html, on browser js)
