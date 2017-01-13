@@ -31,7 +31,7 @@ When npm run dev or npm run build, create this files.
 ├── dist/
 │   └── server.js
 └── public/
-    ├── server.js
+    ├── bundle.js
     └── styles.css
 ```
 
